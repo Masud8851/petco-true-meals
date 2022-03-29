@@ -1,0 +1,441 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.true_meals--wrapper{
+    max-width: 100%;
+    overflow: hidden;
+}
+
+
+.true_meals-heroBanner .true_meals-row{
+    background-color: #00205B;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.true_meals-heroBanner .hero_banner__left-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+    height: 197px;
+}
+
+.banner_title h1{
+    font-size: 40;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.mobile-banner-img{
+    display: none;
+}
+
+.true_meals-heroBanner .true_meals-col.hero_right{
+    background-color: #88d6f7;
+    text-align: center;
+    
+}
+
+.hero-max-768{
+    display: none;
+}
+
+.hero-max-481{
+    display: none;
+}
+
+
+
+.hero_banner__left-content .cta{
+    background: #fff;
+    border-radius: 5px;
+    height: 56px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta a{
+    text-transform: uppercase;
+    color: #00205B;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/* Categories */
+.true_meals-categories .categories_container{
+    width: 80%;
+    height: 174px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.true_meals-categories {
+    /* width: 16%; */
+    /* max-width: 100%; */
+    overflow: auto;
+}
+
+.true_meals-categories .categories_card{
+    width: 100%;
+    /* max-width: 100%; */
+    text-align: center;
+
+}
+
+.categories_card .card-body p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #00205B;
+}
+
+.banner_title_heading{
+    display: none;
+}
+
+/* Laptop */
+@media screen and (min-width:769px) and  (max-width:1100px) {
+    .true_meals-heroBanner .hero_banner__left-content{       
+        justify-content: space-between;
+        padding: 0 2%;      
+    }
+    .banner_title_heading{
+        display: block;
+    }
+}
+
+/* Tab */
+@media screen and (max-width:768px){
+    .true_meals-heroBanner .hero_banner__left-content{  
+        height: auto;
+        flex-direction: column;
+        justify-content: start;
+
+    }
+    
+    .hero_banner__left-content .cta{
+        background: none;
+    }
+
+    .hero_banner__left-content .cta{
+        background: none;
+        position: relative;
+        left: -100px;
+    }
+
+    .cta a{
+        text-transform:capitalize;
+        color: #fff;
+        text-decoration: underline;   
+        font-size: 20px;
+    }
+    .desktop-banner-img{
+        display: none;
+    }
+    .mobile-banner-img{
+        display: block;
+    }
+    .banner_title h1{
+        font-size: 24px;
+    }  
+
+    .hero-plus-768{
+        display: none;
+    }
+    .hero-max-768{
+        display: block;
+    }
+    .hero-max-481{
+        display: none;
+    }
+
+    .hero_banner__right-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .hero_banner__right-content img{
+        position: relative;
+    }
+
+    /* Categories */
+    .categories_card {
+        max-width: 100%;
+    }
+
+    .true_meals-categories .categories_container{
+        justify-content: flex-start;
+    }
+
+}
+
+/* Mobile */
+@media  screen and (max-width:580px) {
+    .true_meals-heroBanner .hero_banner__left-content{       
+        justify-content: space-between;
+        padding: 0 2%;      
+    }
+    .hero-plus-768{
+        display: none;
+    }
+    .hero-max-768{
+        display: none;
+    }
+    .hero-max-481{
+        display: block;
+    }
+    .hero_banner__right-content img{
+        position: relative;
+    }
+
+    .hero_banner__left-content .cta{
+        background: none;
+        position: relative;
+        left: -50px;
+    }
+    .banner_title_heading{
+        display: block;
+    }
+}
+
+
+@media screen and  (max-width:375px) {
+    .true_meals-categories .categories_card{
+        width: 70%;
+    }
+}
+
+
+/* * Imran Vai* */
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  /* Nourish section */
+  #true_meals_nourish {
+    margin: 40px 0;
+  }
+  .true_meals_section_title {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Petco Circular CAP", sans-serif !important;
+    text-align: center;
+  }
+  .true_meals_container {
+    width: 1207px;
+    max-width: 100%;
+    margin: auto;
+  }
+  .true_meals_container .true_meals_row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  .nourish_content {
+    text-align: center;
+  }
+  .nourish_content h3 {
+    font-size: 20px;
+    font-family: "Petco Circular CAP", sans-serif !important;
+    color: #000;
+  }
+  .nourish_content .nourish_img img {
+    max-width: 100%;
+  }
+  .true_meals_nourish_products_container {
+    width: 100%;
+    max-width: 100%;
+    overflow: auto;
+  }
+  .true_meals_nourish_products_container .nourish_product_row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  .product_img {
+    text-align: center;
+  }
+  .card-title {
+    font-size: 16px;
+    font-family: "Petco Circular CAP", sans-serif !important;
+    margin-bottom: 10px;
+    color: #000;
+  }
+  .card_cta a {
+    color: #001952;
+    text-decoration: underline;
+    font-family: "Petco Circular CAP", sans-serif !important;
+    font-size: 16px;
+  }
+  hr.divider {
+    background-color: #707070;
+    height: 1px;
+    border: none;
+  }
+  /* natural section */
+  .true_meals_section_title.desktop {
+    display: block;
+  }
+  .true_meals_section_title.mobile {
+    display: none;
+  }
+  .natural_right_content {
+    background: #88d6f7;
+  }
+  .true_meals_natural_container .natural_row {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    width: 90%;
+    margin: auto;
+  }
+  .natural_product_container {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+  .natural_product_row {
+    display: flex;
+    justify-content: space-between;
+  }
+  .product_card .product_img img {
+    max-width: 100%;
+  }
+  .natural_product_col .product_card {
+    padding: 0 25px 0 0;
+  }
+  .natural_product_container .product_img {
+    min-height: 228px;
+  }
+  .img_banner img {
+    width: 100%;
+    max-width: 100%;
+  }
+  .natural_right_content p {
+    text-align: center;
+    font-size: 16px;
+    font-family: "Petco Circular CAP", sans-serif !important;
+    padding: 0 20px 20px;
+  }
+  
+  /* 4k screen style */
+  @media (min-width: 1444px) {
+    .true_meals-categories .categories_container{
+        width: 1137px;
+        margin: auto;
+    }
+    .true_meals_container {
+      max-width: 1207px;
+      margin: auto;
+    }
+  }
+  /* laptop screen style */
+  @media (max-width: 1024px) {
+    .natural_product_container .product_img {
+      min-height: auto;
+    }
+  }
+  /* mobile and tab responsive */
+  @media (max-width: 768px) {
+    .true_meals_container .true_meals_row {
+      grid-template-columns: 100%;
+      padding: 0 5%;
+    }
+    .true_meals_nourish_products_container {
+      margin-top: 40px;
+      overflow-x: auto;
+    }
+    .nourish_content {
+      width: 100%;
+    }
+    .true_meals_nourish_products_container .nourish_product_row {
+      display: inline-flex;
+      width: 260%;
+      justify-content: flex-start;
+    }
+    .true_meals_nourish_products_container
+      .nourish_product_row
+      .nourish_product_col {
+      width: 75%;
+    }
+    /* natural */
+    .true_meals_natural_container .natural_row {
+      grid-template-columns: 100%;
+    }
+    .order-1 {
+      order: 1;
+    }
+    .order-2 {
+      order: 2;
+    }
+    .true_meals_section_title {
+      width: 264px;
+      max-width: 100%;
+      margin: 0 auto 30px;
+    }
+    .true_meals_section_title.desktop {
+      display: none;
+    }
+    .true_meals_section_title.mobile {
+      display: block;
+      width: 276px;
+      max-width: 100%;
+      margin-top: 20px;
+    }
+    .natural_product_row {
+      display: inline-flex;
+      justify-content: space-between;
+      width: 200%;
+    }
+    .natural_product_row .natural_product_col {
+      width: 75%;
+    }
+    .natural_product_container .product_img {
+      min-height: 228px;
+    }
+    .natural_right_content {
+      margin-bottom: 30px;
+    }
+    .img_banner {
+      text-align: center;
+    }
+    .img_banner img {
+      width: 100%;
+      max-width: 100%;
+    }
+    .mobile {
+      display: none;
+    }
+  }
+  @media (max-width: 350px) {
+    .true_meals_nourish_products_container .nourish_product_row {
+      display: inline-flex;
+      width: 300%;
+      justify-content: flex-start;
+    }
+    .natural_product_row {
+      display: inline-flex;
+      justify-content: space-between;
+      width: 225%;
+    }
+    .natural_product_container .product_img {
+      min-height: 190px;
+    }
+    .card-title {
+      min-height: 60px;
+    }
+    .true_meals_section_title.mobile {
+      font-size: 20px;
+      padding: 0px 10px;
+    }
+  }
+  
+
