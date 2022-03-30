@@ -3,6 +3,10 @@ body {
   padding: 0;
 }
 
+*{
+  font-family: "PetcoCircularTT-Regular", arial !important;
+}
+
 .true_meals--wrapper {
   max-width: 100%;
   overflow: hidden;
@@ -26,6 +30,7 @@ body {
 .banner_title h1 {
   font-size: 40px;
   font-weight: bold;
+  font-family: "PetcoCircularTT-Bold", arial !important;
   text-transform: uppercase;
   position: relative;
 }
@@ -63,6 +68,7 @@ body {
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
+  font-family: "PetcoCircularTT-Bold", arial !important;
 }
 
 /* Categories */
@@ -87,6 +93,7 @@ body {
   text-align: center;
   font-size: 16px;
   font-weight: bold;
+  font-family: "PetcoCircularTT-Bold", arial !important;
   color: #00205b;
 }
 
@@ -103,6 +110,7 @@ body {
   .banner_title h1 {
     font-size: 30px;
     font-weight: bold;
+    font-family: "PetcoCircularTT-Bold", arial !important;
     text-transform: uppercase;
   }
   .brand_logo img {
@@ -249,19 +257,22 @@ a {
 .true_meals_section_title {
   font-size: 25px;
   font-weight: bold;
-  font-family: "Petco Circular CAP", sans-serif !important;
+  font-family: "PetcoCircularTT-Bold", arial !important;
   text-align: center;
 }
+
 .true_meals_container {
   width: 1207px;
   max-width: 100%;
   margin: auto;
 }
+
 .true_meals_container .true_meals_row {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
 }
+
 .nourish_content {
   text-align: center;
 }
