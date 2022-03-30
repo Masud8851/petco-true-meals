@@ -27,11 +27,11 @@ body {
   font-size: 40px;
   font-weight: bold;
   text-transform: uppercase;
+  position: relative;
 }
 
 .tm{
-  font-size: 13px;
-  position: fixed;
+  font-size: 25px;
 }
 
 
@@ -110,6 +110,11 @@ body {
     max-width: 80%;
     margin-top: 20px;
   }
+
+  .tm {
+    font-size: 20px;
+}
+  
 }
 
 /* Tab */
@@ -127,9 +132,9 @@ body {
   .hero_banner__left-content .cta {
     background: none;
     position: relative;
-    left: -19%;
+    left: -21%;
     top: -15px;
-}
+  }
 
   .cta a {
       text-transform: capitalize;
@@ -143,9 +148,8 @@ body {
   } 
 
   .tm {
-    font-size: 8px;
+    font-size: 20px;
 }
-
  
 
   .hero_banner__right-content {
@@ -217,6 +221,9 @@ body {
     left: -19%;
     margin-top: 20%;
 }
+.tm{
+  font-size: 15px;
+}
 }
 @media screen and (max-width: 320px) {
   .true_meals-heroBanner .hero_banner__left-content {
@@ -231,6 +238,11 @@ body {
 .banner_title h1 {
   font-size: 17px;
 }
+
+.tm{
+  font-size: 13px;
+}
+
 }
 
 
@@ -316,6 +328,7 @@ hr.divider {
   grid-template-columns: 60% 40%;
   width: 90%;
   margin: auto;
+  align-items: center;
 }
 .natural_product_container {
   width: 100%;
@@ -356,6 +369,12 @@ hr.divider {
       max-width: 1207px;
       margin: auto;
   }
+  .true_meals_natural_container {
+    width: 1326px;
+    max-width: 100%;
+    margin: auto;
+  }
+
 }
 /* laptop screen style */
 @media (max-width: 1024px) {
