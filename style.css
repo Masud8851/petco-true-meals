@@ -79,7 +79,6 @@ body {
 
 .true_meals-categories .categories_container {
   width: 80%;
-  height: 174px;
   margin: auto;
   display: flex;
   justify-content: space-evenly;
@@ -95,11 +94,14 @@ body {
   font-weight: bold;
   font-family: "PetcoCircularTT-Bold", arial !important;
   color: #00205b;
+  line-height: 25px;
 }
 
 .banner_title_heading {
   display: none;
 }
+
+
 
 /* Laptop */
 @media screen and (min-width: 769px) and (max-width: 1100px) {
@@ -138,7 +140,7 @@ body {
   .hero_banner__left-content .cta {
     background: none;
     position: relative;
-    left: -21%;
+    left: -20%;
     top: -15px;
   }
 
@@ -206,7 +208,7 @@ body {
   .hero_banner__left-content .cta {
     background: none;
     position: relative;
-    left: -30%;
+    left: -26%;
     top: -15px;
   }
   .banner_title_heading {
@@ -302,12 +304,14 @@ a {
   font-family: "Petco Circular CAP", sans-serif !important;
   margin-bottom: 10px;
   color: #000;
+  line-height: 20px;
 }
 .card_cta a {
   color: #001952;
   text-decoration: underline;
   font-family: "Petco Circular CAP", sans-serif !important;
   font-size: 16px;
+  margin-top: 10px;
 }
 hr.divider {
   background-color: #707070;
