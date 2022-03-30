@@ -30,10 +30,9 @@ body {
   position: relative;
 }
 
-.tm{
+.tm {
   font-size: 25px;
 }
-
 
 .true_meals-heroBanner .true_meals-col.hero_right {
   background-color: #88d6f7;
@@ -98,14 +97,14 @@ body {
 /* Laptop */
 @media screen and (min-width: 769px) and (max-width: 1100px) {
   .true_meals-heroBanner .hero_banner__left-content {
-      justify-content: space-between;
-      padding: 0 2%;
+    justify-content: space-between;
+    padding: 0 2%;
   }
   .banner_title h1 {
     font-size: 30px;
     font-weight: bold;
     text-transform: uppercase;
-}
+  }
   .brand_logo img {
     max-width: 80%;
     margin-top: 20px;
@@ -113,20 +112,19 @@ body {
 
   .tm {
     font-size: 20px;
-}
-  
+  }
 }
 
 /* Tab */
 @media screen and (max-width: 768px) {
   .true_meals-heroBanner .hero_banner__left-content {
-      height: auto;
-      flex-direction: column;
-      justify-content: start;
+    height: auto;
+    flex-direction: column;
+    justify-content: start;
   }
 
   .hero_banner__left-content .cta {
-      background: none;
+    background: none;
   }
 
   .hero_banner__left-content .cta {
@@ -137,42 +135,39 @@ body {
   }
 
   .cta a {
-      text-transform: capitalize;
-      color: #fff;
-      text-decoration: underline;
-      font-size: 20px;
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration: underline;
+    font-size: 20px;
   }
- 
+
   .banner_title h1 {
-      font-size: 24px;
-  } 
+    font-size: 24px;
+  }
 
   .tm {
     font-size: 20px;
-}
- 
+  }
 
   .hero_banner__right-content {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
   }
-  
-  
 
   /* Categories */
   .categories_card {
-      max-width: 100%;
+    max-width: 100%;
   }
 
   .true_meals-categories .categories_container {
-      justify-content: flex-start;
-      display: inline-flex;
-      width: 330%;
+    justify-content: flex-start;
+    display: inline-flex;
+    width: 330%;
   }
 
-  .categories_card{
+  .categories_card {
     width: 75%;
   }
 }
@@ -191,61 +186,56 @@ body {
   .banner_title h1 {
     font-size: 20px;
   }
- 
+
   .hero_banner__right-content img {
     position: relative;
     max-width: 145%;
     position: relative;
     left: -20%;
     margin-top: 12%;
-}
+  }
 
   .hero_banner__left-content .cta {
     background: none;
     position: relative;
     left: -30%;
     top: -15px;
-}
+  }
   .banner_title_heading {
-      display: block;
+    display: block;
   }
 }
 
 @media screen and (max-width: 375px) {
   .true_meals-categories .categories_card {
-      width: 70%;
+    width: 70%;
   }
 
   .hero_banner__right-content img {
     max-width: 140%;
     left: -19%;
     margin-top: 20%;
-}
-.tm{
-  font-size: 15px;
-}
+  }
+  .tm {
+    font-size: 15px;
+  }
 }
 @media screen and (max-width: 320px) {
   .true_meals-heroBanner .hero_banner__left-content {
-    
     min-height: 100px;
-}
+  }
   .hero_banner__left-content .cta a {
-    
     font-size: 17px;
+  }
+
+  .banner_title h1 {
+    font-size: 17px;
+  }
+
+  .tm {
+    font-size: 13px;
+  }
 }
-
-.banner_title h1 {
-  font-size: 17px;
-}
-
-.tm{
-  font-size: 13px;
-}
-
-}
-
-
 
 /* * Imran Vai* */
 a {
@@ -362,115 +352,114 @@ hr.divider {
 /* 4k screen style */
 @media (min-width: 1444px) {
   .true_meals-categories .categories_container {
-      width: 1137px;
-      margin: auto;
+    width: 1137px;
+    margin: auto;
   }
   .true_meals_container {
-      max-width: 1207px;
-      margin: auto;
+    max-width: 1207px;
+    margin: auto;
   }
   .true_meals_natural_container {
     width: 1326px;
     max-width: 100%;
     margin: auto;
   }
-
 }
 /* laptop screen style */
 @media (max-width: 1024px) {
   .natural_product_container .product_img {
-      min-height: auto;
+    min-height: auto;
   }
 }
 /* mobile and tab responsive */
 @media (max-width: 768px) {
   .true_meals_container .true_meals_row {
-      grid-template-columns: 100%;
-      padding: 0 5%;
+    grid-template-columns: 100%;
+    padding: 0 5%;
   }
   .true_meals_nourish_products_container {
-      margin-top: 40px;
-      overflow-x: auto;
+    margin-top: 40px;
+    overflow-x: auto;
   }
   .nourish_content {
-      width: 100%;
+    width: 100%;
   }
   .true_meals_nourish_products_container .nourish_product_row {
-      display: inline-flex;
-      width: 260%;
-      justify-content: flex-start;
+    display: inline-flex;
+    width: 260%;
+    justify-content: flex-start;
   }
   .true_meals_nourish_products_container .nourish_product_row .nourish_product_col {
-      width: 75%;
+    width: 75%;
   }
   /* natural */
   .true_meals_natural_container .natural_row {
-      grid-template-columns: 100%;
+    grid-template-columns: 100%;
   }
   .order-1 {
-      order: 1;
+    order: 1;
   }
   .order-2 {
-      order: 2;
+    order: 2;
   }
   .true_meals_section_title {
-      width: 264px;
-      max-width: 100%;
-      margin: 0 auto 30px;
+    width: 264px;
+    max-width: 100%;
+    margin: 0 auto 30px;
   }
   .true_meals_section_title.desktop {
-      display: none;
+    display: none;
   }
   .true_meals_section_title.mobile {
-      display: block;
-      width: 276px;
-      max-width: 100%;
-      margin-top: 20px;
+    display: block;
+    width: 276px;
+    max-width: 100%;
+    margin-top: 20px;
   }
   .natural_product_row {
-      display: inline-flex;
-      justify-content: space-between;
-      width: 200%;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 200%;
   }
   .natural_product_row .natural_product_col {
-      width: 75%;
+    width: 75%;
   }
   .natural_product_container .product_img {
-      min-height: 228px;
+    min-height: 228px;
   }
   .natural_right_content {
-      margin-bottom: 30px;
+    margin-bottom: 30px;
   }
   .img_banner {
-      text-align: center;
+    text-align: center;
   }
   .img_banner img {
-      width: 100%;
-      max-width: 100%;
+    width: 100%;
+    max-width: 100%;
   }
   .mobile {
-      display: none;
+    display: none;
   }
 }
 @media (max-width: 350px) {
   .true_meals_nourish_products_container .nourish_product_row {
-      display: inline-flex;
-      width: 300%;
-      justify-content: flex-start;
+    display: inline-flex;
+    width: 300%;
+    justify-content: flex-start;
   }
   .natural_product_row {
-      display: inline-flex;
-      justify-content: space-between;
-      width: 225%;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 225%;
   }
   .natural_product_container .product_img {
-      min-height: 190px;
+    min-height: 190px;
   }
   .card-title {
-      min-height: 60px;
+    min-height: 60px;
   }
   .true_meals_section_title.mobile {
-      font-size: 20px;
-      padding: 0px 10px;
+    font-size: 20px;
+    padding: 0px 10px;
   }
 }
